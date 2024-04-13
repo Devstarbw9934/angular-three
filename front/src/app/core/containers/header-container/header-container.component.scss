@@ -1,0 +1,18 @@
+:host {
+    position: fixed;
+    z-index: 1;
+    top: 1.5em;
+    left: 2em;
+    right: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; /* vertical alignment */
+
+    font-size: 1.2em;
+
+    app-upper-left-logo, app-upper-right-cta, upper-middle-navbar { flex: 1; }
+
+    app-upper-left-logo { margin-right: auto; }
+    app-upper-right-cta { margin-left: auto; }
+}
